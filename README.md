@@ -18,9 +18,13 @@ module.exports = function(n: number, width: number, height: number): Video[] {
 }
 
 type Video = {
+    
     width: number; // Ширина видео в пикселях
+    
     height: number;  // Высота видео в пикселях
+    
     x: number; // Положение левого верхнего угла видео по x относительно верхнего левого угла экрана
+    
     y: number; // Положение левого верхнего угла видео по y относительно верхнего левого угла экрана
 }
 
